@@ -1,2 +1,25 @@
 /* < 770px Cambio de imágenes */
 /* < 551 pop-up cookies */
+
+.header {
+    background-color: rgb(84,21,84);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        gap: 5px;
+
+        &__image{
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

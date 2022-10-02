@@ -1,3 +1,22 @@
 @charset "UTF-8";
 /* < 770px Cambio de imágenes */
-/* < 551 pop-up cookies *//*# sourceMappingURL=style.css.map */
+/* < 551 pop-up cookies */
+.header {
+  background-color: rgb(84, 21, 84);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__logo__image {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=style.css.map */
