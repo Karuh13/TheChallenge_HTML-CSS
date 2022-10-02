@@ -19,4 +19,11 @@
 .header__logo__image {
   width: 25px;
   height: 25px;
+}
+
+.main__section--purple {
+  background-color: rgb(84, 21, 84);
+}
+.main__section--beige {
+  background-color: rgb(244, 237, 228);
 }/*# sourceMappingURL=style.css.map */

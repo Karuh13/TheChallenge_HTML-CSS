@@ -1,8 +1,11 @@
 /* < 770px Cambio de imágenes */
 /* < 551 pop-up cookies */
 
+$purple: rgb(84,21,84);
+$beige: rgb(244,237,228);
+
 .header {
-    background-color: rgb(84,21,84);
+    background-color: $purple;
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
@@ -20,6 +23,22 @@
         &__image{
             width: 25px;
             height: 25px;
+        }
+    }
+}
+
+.main {
+
+
+    &__section{
+
+
+        &--purple {
+            background-color: $purple;
+        }
+
+        &--beige {
+            background-color: $beige;
         }
     }
 }
