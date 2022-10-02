@@ -72,7 +72,7 @@
   background-color: white;
   font-weight: bold;
   padding: 20px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .main__s1__video {
   overflow: hidden;
@@ -142,4 +142,70 @@
   text-decoration: none;
   color: rgb(18, 100, 163);
   font-weight: bold;
+}
+.main__s4__statitics {
+  padding: 48px 5vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.main__s4__statitics h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 120%;
+}
+.main__s4__statitics > p {
+  padding: 15px 0;
+  line-height: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+.main__s4__statitics__links {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  width: 100%;
+}
+.main__s4__statitics__links a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.main__s4__statitics__links a:first-child {
+  background-color: rgb(84, 21, 84);
+  color: white;
+}
+.main__s4__statitics__links a:last-child {
+  border: 1px solid rgb(84, 21, 84);
+  color: rgb(84, 21, 84);
+}
+.main__s4__statitics__percents {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 80px;
+  gap: 2rem;
+}
+.main__s4__statitics__percents div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.main__s4__statitics__percents div p:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(84, 21, 84);
+}
+.main__s4__statitics__percents div p:last-child {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  line-height: 1.1rem;
 }/*# sourceMappingURL=style.css.map */

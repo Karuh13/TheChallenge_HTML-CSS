@@ -93,7 +93,7 @@ $ocher: rgb(236,178,46);
                 background-color: white;
                 font-weight: bold;
                 padding: 20px;
-                border-radius: 3px;
+                border-radius: 5px;
             }
         }
         
@@ -184,5 +184,86 @@ $ocher: rgb(236,178,46);
         }
     }
  
+    &__s4 {
+
+        &__statitics {
+            padding: 48px 5vw;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+
+            & h2 {
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: center;
+                line-height: 120%;
+            }
+
+            &> p {
+                padding: 15px 0;
+                line-height: 150%;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            &__links {
+                display:flex ;
+                flex-flow: column;
+                gap: 15px;
+                width: 100%;
+
+                & a {
+                    width: 100%;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                    padding: 20px;
+                    border-radius: 5px;
+                    letter-spacing: 1px;
+                }
+                
+                & a:first-child {
+                    background-color: $purple;
+                    color: white;
+                }
+
+                & a:last-child {
+                    border: 1px solid $purple;
+                    color: $purple;
+                }
+            }
+
+            &__percents {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                padding: 80px;
+                gap: 2rem;
+
+                & div {
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+
+                    & p:first-child {
+                        font-size: 3rem;
+                        font-weight: bold;
+                        color: $purple;
+                    }
+
+                    & p:last-child {
+                        font-size: 0.8rem;
+                        text-align: center;
+                        padding-top: 10px;
+                        letter-spacing: 1px;
+                        line-height: 1.1rem;
+                    }
+
+
+                }
+            }
+        }
+    }
     
 }
