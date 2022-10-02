@@ -2,11 +2,14 @@
 /* < 551 pop-up cookies */
 /* < 1024 tamaño h1 y disposicion en columnas, mini imaganes seccion3, 2x2 en seccion4 */
 
+
 $purple: rgb(84,21,84);
 $beige: rgb(244,237,228);
 $ocher: rgb(236,178,46);
 
-$wid: 2vw;
+* {
+    box-sizing: border-box;
+}
 
 .header {
     background-color: $purple;
@@ -61,15 +64,15 @@ $wid: 2vw;
             flex-flow: column;
             align-items: center;
             justify-content: space-between;
-            padding: 30px;
+            padding: 30px 10px;
             color: white;
             text-align: center;
             max-width: 620px;
     
             & h1 {
-                width: 100%;
                 word-spacing: -5px;
                 font-size: max(7.1vw, 2.9rem);
+                font-weight: bold;
 
     
                 & span {
@@ -103,6 +106,35 @@ $wid: 2vw;
             & video {
                 width: 700px;
                 height: 400px;
+            }
+        }
+    }
+
+    &__s2 {
+        padding: 50px max(30px, 10vw);
+        overflow: hidden;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        &> p {
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        &> div {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+            width: 100%;
+            gap: max(20px, 3vw);
+            max-width: 1000px;
+
+            & img {
+                object-fit: none;
+
             }
         }
     }
