@@ -317,4 +317,50 @@ $ocher: rgb(236,178,46);
         }
     }
     
+
+
+    &__s6 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 4rem 1rem;
+        width: 100%;
+        gap: 2rem;
+        clip-path: ellipse(105% 100% at 50% 0%);
+        
+        & p {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+        }
+
+        & div {
+            display:flex ;
+            flex-flow: column;
+            gap: 15px;
+            width: 100%;
+
+            & a {
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                font-size: 0.8rem;
+                font-weight: bold;
+                padding: 20px;
+                border-radius: 5px;
+                letter-spacing: 1px;
+            }
+            
+            & a:first-child {
+                background-color: white;
+                color: $purple;
+            }
+
+            & a:last-child {
+                border: 1px solid white;
+                color: white;
+            }
+        }
+    }
 }

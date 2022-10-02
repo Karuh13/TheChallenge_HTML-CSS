@@ -246,4 +246,44 @@
   font-size: 0.85rem;
   color: rgb(63, 63, 63);
   line-height: 130%;
+}
+.main__s6 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 4rem 1rem;
+  width: 100%;
+  gap: 2rem;
+  -webkit-clip-path: ellipse(105% 100% at 50% 0%);
+          clip-path: ellipse(105% 100% at 50% 0%);
+}
+.main__s6 p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.main__s6 div {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  width: 100%;
+}
+.main__s6 div a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.main__s6 div a:first-child {
+  background-color: white;
+  color: rgb(84, 21, 84);
+}
+.main__s6 div a:last-child {
+  border: 1px solid white;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
