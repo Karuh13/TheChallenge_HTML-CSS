@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* < 770px Cambio de imágenes */
 /* < 551 pop-up cookies */
+/* < 1024 tamaño h1 y disposicion en columnas, mini imaganes seccion3, 2x2 en seccion4 */
 .header {
   background-color: rgb(84, 21, 84);
   padding: 20px 10px;
@@ -26,4 +27,7 @@
 }
 .main__section--beige {
   background-color: rgb(244, 237, 228);
+}
+.main__section__h1 {
+  font-size: max(10vw, 2rem);
 }/*# sourceMappingURL=style.css.map */

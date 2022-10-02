@@ -1,8 +1,10 @@
 /* < 770px Cambio de imágenes */
 /* < 551 pop-up cookies */
+/* < 1024 tamaño h1 y disposicion en columnas, mini imaganes seccion3, 2x2 en seccion4 */
 
 $purple: rgb(84,21,84);
 $beige: rgb(244,237,228);
+$ocher: rgb(236,178,46);
 
 .header {
     background-color: $purple;
@@ -39,6 +41,10 @@ $beige: rgb(244,237,228);
 
         &--beige {
             background-color: $beige;
+        }
+
+        &__h1 {
+            font-size: max(10vw, 2rem);
         }
     }
 }
