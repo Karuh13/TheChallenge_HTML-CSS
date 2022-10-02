@@ -111,7 +111,8 @@ $ocher: rgb(236,178,46);
     }
 
     &__s2 {
-        padding: 50px max(30px, 10vw);
+        padding: 48px max(30px, 10vw);
+        padding-bottom: 0px;
         overflow: hidden;
         display: flex;
         flex-flow: column;
@@ -139,6 +140,49 @@ $ocher: rgb(236,178,46);
         }
     }
 
+    &__s3 {
+
+        &__attribute {
+            display: flex;
+            flex-flow: column;
+            padding: 48px 0px;
+
+            &--left {
+                padding-right: 5vw;
+            }
+
+            &--right {
+                padding-left: 5vw;
+                align-items: flex-end;
+            }
+
+            & div:last-child {
+                max-width: 30rem;
+                margin-left: 15px;
+                margin-top: 30px;
+                
+                & h2 {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    line-height: 120%;
+                }
+
+                & p {
+                    padding: 15px 0px;
+                    line-height: 150%;
+                    font-weight: bold;
+                }
+
+                & a {
+                    line-height: 150%;
+                    text-decoration: none;
+                    color: rgb(18,100,163);
+                    font-weight: bold;
+                }
+            }
+
+        }
+    }
  
     
 }
