@@ -262,28 +262,33 @@
   font-weight: bold;
   padding-bottom: 2rem;
 }
-.main__s5__promo {
+.main__s5__menu {
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  align-items: center;
+}
+.main__s5__menu__promo {
   display: flex;
   flex-flow: column;
   padding: 12px;
   background-color: white;
   width: 284px;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
-.main__s5__promo > * {
+.main__s5__menu__promo > * {
   width: 260px;
 }
-.main__s5__promo span {
+.main__s5__menu__promo span {
   font-size: 0.85rem;
   color: rgb(63, 63, 63);
 }
-.main__s5__promo h3 {
+.main__s5__menu__promo h3 {
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 130%;
 }
-.main__s5__promo a {
+.main__s5__menu__promo a {
   display: flex;
   font-size: 0.95rem;
   justify-content: space-between;
@@ -291,6 +296,20 @@
   color: rgb(18, 100, 163);
   font-weight: bold;
   margin-top: 3rem;
+}
+.main__s5__menu__dots {
+  display: flex;
+  gap: 15px;
+}
+.main__s5__menu__dots div {
+  background-color: rgb(192, 192, 187);
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  margin-top: 2rem;
+}
+.main__s5__menu__dots div:first-child {
+  background-color: rgb(84, 21, 84);
 }
 .main__s6 {
   display: flex;

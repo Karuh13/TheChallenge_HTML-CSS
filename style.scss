@@ -333,42 +333,66 @@ $ocher: rgb(236,178,46);
             padding-bottom: 2rem;
         }
 
-        &__promo {
+        &__menu {
             display: flex;
+            width: 100%;
             flex-flow: column;
-            padding: 12px;
-            background-color: white;
-            width: 284px;
-            gap: 1rem;
-            margin-bottom: 2rem;
+            align-items: center;
 
-            &> * {
-                width: 260px;
-            }
-
-            & span {
-                font-size: 0.85rem;
-                color: rgb(63, 63, 63);
-                
-            }
-
-            & h3 {
-                font-size: 1.4rem;
-                font-weight: bold;
-                line-height: 130%;
-            }
-
-            & a {
+            &__promo {
                 display: flex;
-                font-size: 0.95rem;
-                justify-content: space-between;
-                text-decoration: none;
-                color: rgb(18,100,163);
-                font-weight: bold;
-                margin-top: 3rem;
+                flex-flow: column;
+                padding: 12px;
+                background-color: white;
+                width: 284px;
+                gap: 1rem;
+    
+                &> * {
+                    width: 260px;
+                }
+    
+                & span {
+                    font-size: 0.85rem;
+                    color: rgb(63, 63, 63);
+                    
+                }
+    
+                & h3 {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    line-height: 130%;
+                }
+    
+                & a {
+                    display: flex;
+                    font-size: 0.95rem;
+                    justify-content: space-between;
+                    text-decoration: none;
+                    color: rgb(18,100,163);
+                    font-weight: bold;
+                    margin-top: 3rem;
+                }
             }
+            
+            &__dots {
+                display: flex;
+                gap: 15px;
 
+                & div {
+                    background-color: rgb(192, 192, 187);
+                    height: 13px;
+                    width: 13px;
+                    border-radius: 100%;
+                    margin-top: 2rem;
+                }
+
+                & div:first-child {
+                    background-color: $purple;
+                }
+            }
+    
         }
+        
     }
 
     &__s6 {
