@@ -286,4 +286,23 @@
 .main__s6 div a:last-child {
   border: 1px solid white;
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* .toggle-menu {
+    display: none;
+    height: 20px;
+    width: 800px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+
+    &> ul {
+        background-color: #ffa500;
+        width: 780px;
+        overflow: hidden;
+        max-height: 0;
+        padding: 0;
+        margin: 0 auto;
+        transition: all 0.3s ease;
+    }
+} *//*# sourceMappingURL=style.css.map */
