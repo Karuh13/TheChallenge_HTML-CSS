@@ -9,6 +9,7 @@ $ocher: rgb(236,178,46);
 
 * {
     box-sizing: border-box;
+    
 }
 
 .header {
@@ -21,12 +22,13 @@ $ocher: rgb(236,178,46);
     font-size: 25px;
     font-weight: bold;
     height: 80px;
+    font-family: Helvetica, sans-serif;
 
     &__logo {
         display: flex;
         align-items: center;
-
         gap: 5px;
+        font-size: 1.8rem;
 
         &__image{
             width: 25px;
@@ -37,7 +39,6 @@ $ocher: rgb(236,178,46);
 
 .main {
     font-family: Helvetica, sans-serif;
-
 
     &__section{
 
@@ -171,6 +172,8 @@ $ocher: rgb(236,178,46);
                     padding: 15px 0px;
                     line-height: 150%;
                     font-weight: bold;
+                    color: rgb(34, 34, 34);
+                    
                 }
 
                 & a {
@@ -317,7 +320,56 @@ $ocher: rgb(236,178,46);
         }
     }
     
+    &__s5 {
+        padding: 2.5rem 1rem;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
 
+        & h2 {
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 2rem;
+        }
+
+        &__promo {
+            display: flex;
+            flex-flow: column;
+            padding: 12px;
+            background-color: white;
+            width: 284px;
+            gap: 1rem;
+            margin-bottom: 2rem;
+
+            &> * {
+                width: 260px;
+            }
+
+            & span {
+                font-size: 0.85rem;
+                color: rgb(63, 63, 63);
+                
+            }
+
+            & h3 {
+                font-size: 1.4rem;
+                font-weight: bold;
+                line-height: 130%;
+            }
+
+            & a {
+                display: flex;
+                font-size: 0.95rem;
+                justify-content: space-between;
+                text-decoration: none;
+                color: rgb(18,100,163);
+                font-weight: bold;
+                margin-top: 3rem;
+            }
+
+        }
+    }
 
     &__s6 {
         display: flex;
@@ -365,6 +417,10 @@ $ocher: rgb(236,178,46);
     }
 }
 
+.footer {
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
 /* .toggle-menu {
     display: none;
     height: 20px;

@@ -16,11 +16,13 @@
   font-size: 25px;
   font-weight: bold;
   height: 80px;
+  font-family: Helvetica, sans-serif;
 }
 .header__logo {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-size: 1.8rem;
 }
 .header__logo__image {
   width: 25px;
@@ -136,6 +138,7 @@
   padding: 15px 0px;
   line-height: 150%;
   font-weight: bold;
+  color: rgb(34, 34, 34);
 }
 .main__s3__attribute div:last-child a {
   line-height: 150%;
@@ -247,6 +250,48 @@
   color: rgb(63, 63, 63);
   line-height: 130%;
 }
+.main__s5 {
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.main__s5 h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+.main__s5__promo {
+  display: flex;
+  flex-flow: column;
+  padding: 12px;
+  background-color: white;
+  width: 284px;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.main__s5__promo > * {
+  width: 260px;
+}
+.main__s5__promo span {
+  font-size: 0.85rem;
+  color: rgb(63, 63, 63);
+}
+.main__s5__promo h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 130%;
+}
+.main__s5__promo a {
+  display: flex;
+  font-size: 0.95rem;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(18, 100, 163);
+  font-weight: bold;
+  margin-top: 3rem;
+}
 .main__s6 {
   display: flex;
   flex-flow: column;
@@ -286,6 +331,11 @@
 .main__s6 div a:last-child {
   border: 1px solid white;
   color: white;
+}
+
+.footer {
+  overflow: hidden;
+  font-family: Helvetica, sans-serif;
 }
 
 /* .toggle-menu {
